@@ -9,36 +9,37 @@ const learning = true;
 
 const killingIt = havingFun && learning;
 
-function returnFalse(learning){
-  return learning = false 
+function returnFalse(bool){
+  return bool = false 
+  // return !bool
 }
 
-function isOpposite(iGetTheJoke) {
-  return !iGetTheJoke;
+function isOpposite(bool) {
+  return !bool;
 }
 
-function both(havingFun, learning) {
-  return havingFun && learning
+function both(bool1, bool2) {
+  return bool1 && bool2
 }
 
-function either(iGetTheJoke, havingFun){
-  return iGetTheJoke || havingFun
+function either(bool1, bool2){
+  return bool1 || bool2
 }
 
-function firstOnly(havingFun, learning){
-  return havingFun && !learning
+function firstOnly(bool1, bool2){
+  return bool1 && !bool2
 }
 
-function secondOnly(havingFun, learning){
-  return !havingFun && learning
+function secondOnly(bool1, bool2){
+  return !bool1 && bool2
 }
 
-function neither(havingFun, learning){
-  return !havingFun && !learning
+function neither(bool1, bool2){
+  return !bool1 && !bool2
 }
 
-function itsComplicated(iGetTheJoke, havingFun, learning){
-  return !iGetTheJoke || havingFun && learning
+function itsComplicated(bool1, bool2, bool3){
+  return !bool1 || bool2 && bool3
 }
 
 
